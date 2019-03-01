@@ -1,1 +1,1 @@
-export * from './MyButton'
+export VButton from './base/VButton'

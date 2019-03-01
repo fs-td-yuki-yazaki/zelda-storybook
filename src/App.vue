@@ -7,11 +7,15 @@
 
 <script>
 import HelloWorld from './components/HelloWorld'
+import [VButton] from './components/index.js'
 
 export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  created: function() {
+    console.log(components);
   }
 }
 </script>
